@@ -393,6 +393,7 @@ blockquote p {
   -moz-transition: all .15s linear;
   -o-transition: all .15s linear;
   transition: all .15s linear;
+  box-shadow: 0px 3px 10px 0px #2c2d31;
 }
 
 #top-header .grid {
@@ -590,11 +591,11 @@ blockquote p {
 
 .parallax-section {
   z-index: -1;
-  clear: both;
-  background-image: url('images/basic.png');
+  /* clear: both; */
+  /* background-image: url(images/basic.png); */
+  background: linear-gradient(18deg, #40bd6a, #2c2d31, #2c2d31, #40bd6a);
   background-repeat: repeat;
   background-attachment: fixed;
-  background-position: center center;
 }
 
 .parallax2 {
@@ -1755,6 +1756,8 @@ footer a {
 only screen and (max-width: 1200px) {
   #top-header {
     padding: 15px 20px;
+
+      box-shadow: 0px 3px 10px 0px #2c2d31;
   }
 
   #price-tables #plans .plan {
@@ -1781,6 +1784,7 @@ only screen and (max-width: 767px) {
   #top-header {
     position: absolute;
     padding: 8px 0;
+    box-shadow: 0px 3px 10px 0px #2c2d31;
   }
 
   .logo-wrap {
