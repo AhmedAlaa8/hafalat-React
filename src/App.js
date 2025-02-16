@@ -385,7 +385,7 @@ function App() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-1-4">
+                                {/* <div className="col-1-4">
                                     <div className="content staff-content">
                                         <div className="recent-work staff-img">
                                             <div className="img-wrap staff-img">
@@ -397,7 +397,7 @@ function App() {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-1-4">
                                     <div className="content staff-content">
                                         <div className="recent-work staff-img">
