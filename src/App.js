@@ -385,19 +385,9 @@ function App() {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-1-4">
-                                    <div className="content staff-content">
-                                        <div className="recent-work staff-img">
-                                            <div className="img-wrap staff-img">
-                                                <img src="images/team/reda.jpg" alt=""/>
-                                            </div>
-                                            <div className="work-info staff-info">
-                                                <h5>رضا</h5>
-                                                <span/>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> */}
+                                <div className="col-1-4">
+                                  
+                                </div>
                                 <div className="col-1-4">
                                     <div className="content staff-content">
                                         <div className="recent-work staff-img">
